@@ -10,4 +10,9 @@ var mySound;
     mySound.setVolume(50);
     mySound.play();
   }
+function draw() {
+
+  image(img, 0, 0);
+  image(img, 0, height/2, img.width/2, img.height/2);
+}
 
