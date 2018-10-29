@@ -1,6 +1,7 @@
 
 var mySound;
   function preload() {
+       image(Nutcracker.jpg,200,200,200,300);
     mySound = loadSound('The Nutcracker Dance Of The Sugar Plum Fairy.mp3');
   }
 
@@ -9,6 +10,4 @@ var mySound;
     mySound.setVolume(50);
     mySound.play();
   }
-function draw () {
-   image(Nutcracker.jpg,200,200,200,300);
-}
+
