@@ -1,7 +1,7 @@
 
 var mySound;
   function preload() {
-       image(Nutcracker.jpg,200,200,200,300);
+       imag= loadImage(Nutcracker.jpg,200,200,200,300);
     mySound = loadSound('The Nutcracker Dance Of The Sugar Plum Fairy.mp3');
   }
 
