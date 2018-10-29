@@ -1,4 +1,4 @@
-var img
+var img;
 var mySound;
   function preload() {
        img= loadImage(Nutcracker.jpg,200,200,200,300);
