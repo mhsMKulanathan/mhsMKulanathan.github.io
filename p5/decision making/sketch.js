@@ -1,3 +1,6 @@
+/* Decision structure assignment
+Madhusha Kulanathan
+31/10/2018*/
 
 var textColor;
 var answers = ["Mexico", "Indonesia","South Africa","Argentina"]
