@@ -1,3 +1,7 @@
+/* Sound and Image assignment 
+Madhusha Kulanathan
+29/10/2018*/
+
 var img;
 var mySound;
   function preload() {
