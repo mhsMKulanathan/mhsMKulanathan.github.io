@@ -1,3 +1,7 @@
+/* Snowman assignment
+Madhusha Kulanathan
+@/10/2018*/
+
 //setup the canvas
 function setup () {
   // sets the screen to be 640 pixels wide and 480 pixels high
