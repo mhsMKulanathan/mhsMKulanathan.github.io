@@ -1,3 +1,7 @@
+/*Face assignment
+Madhusha, James, Omar, Santiago
+26/10/2018*/
+
 //page setup (Madhusha)
 function setup() {
   // put setup code here
