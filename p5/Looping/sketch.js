@@ -4,7 +4,8 @@ Madhusha Kulanathan
 
 // Variable setup
 var x = 0;
-var width= 1279
+canvasWidth=1279
+var width= canvasWidth
 
 //page setup
 function setup() {
@@ -22,7 +23,7 @@ function draw() {
   //create the subjects
   strokeWeight(6)
   ellipse(x, 450, x, height);
-  line(1279, 450, x, height);
+  line(width, 450, x, height);
 }
 // When mouse presses, objects move
 function mousePressed() {
