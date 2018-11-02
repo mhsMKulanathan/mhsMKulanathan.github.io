@@ -14,7 +14,7 @@ var mySound;
 //page setup
   function setup() {
     createCanvas(640, 480);
-    mySound.setVolume(50);
+    mySound.setVolume(10);
     mySound.play();
   }
   // image postion and size
