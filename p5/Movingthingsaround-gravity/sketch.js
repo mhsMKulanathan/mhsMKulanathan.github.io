@@ -1,4 +1,4 @@
-/* Moving things and staying on the canvas
+/* Moving things and staying on the canvas with gravity simulation
 Madhusha Kulanathan
 12/10/2018*/
 
