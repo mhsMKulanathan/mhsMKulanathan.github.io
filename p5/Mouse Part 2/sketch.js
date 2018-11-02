@@ -1,4 +1,4 @@
-/* Using the mouse assignment part 1
+/* Using the mouse assignment part 2
 Madhusha Kulanathan
 17/10/2018*/
 
