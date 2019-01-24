@@ -110,7 +110,7 @@ function keyPressed() {
   }
 }
 function startScreen() {
-startbutton = createButton("Mexico");
+startbutton = createButton("Start");
 startbutton.position(width/3.3, 400);
 startbutton.size(100,50);
 startbutton.mousePressed(clickButton);
