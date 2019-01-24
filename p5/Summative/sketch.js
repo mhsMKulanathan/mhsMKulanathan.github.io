@@ -28,7 +28,7 @@ function draw() {
 background(0);
 
 //Make the circles
-fill(255,0,255);
+fill(255,0,0);
 ellipse(posW/20,posX/20,ballRadius,ballRadius);
 fill(0,0,255);
 ellipse(posY/1,posZ/1,ballRadius,ballRadius);
