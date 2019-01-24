@@ -15,6 +15,7 @@ var posX= posW;
 var posY= posW;
 var posZ= posW;
 var ballRadius = posW/18;
+var startbutton;
 
 //speed varaibles
 var speedW=200;
@@ -91,6 +92,7 @@ function keyPressed() {
    else if (key ==='w'){   //move the red circle up
      posX -= 200;
    }
+   
 
 
  //move the blue circle
@@ -106,6 +108,10 @@ function keyPressed() {
   else if (keyCode === UP_ARROW){    //move the blue circle up
     posZ -= 8;
   }
+}
 function startScreen() {
-  
-  }
+startbutton = createButton("Mexico");
+startbutton.position(width/3.3, 400);
+startbutton.size(100,50);
+startbutton.mousePressed(clickButton);
+}
