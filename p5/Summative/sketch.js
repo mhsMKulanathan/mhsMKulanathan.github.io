@@ -106,5 +106,6 @@ function keyPressed() {
   else if (keyCode === UP_ARROW){    //move the blue circle up
     posZ -= 8;
   }
-
+function startScreen() {
+  
   }
