@@ -28,7 +28,7 @@ background(0);
 
 //Make the circles
 fill(255,0,0);
-ellipse(posW/25,posX/25,ballRadius,ballRadius);
+ellipse(posW/20,posX/20,ballRadius,ballRadius);
 fill(0,0,255);
 ellipse(posY/1,posZ/1,ballRadius,ballRadius);
 
@@ -40,16 +40,16 @@ rect(1,790,799,77);
 
 
   // Code for staying on the canvas (red circle)
-  if (posW/25 > width) {    // the object has moved off the canvas to the right
+  if (posW/20 > width) {    // the object has moved off the canvas to the right
       posW = -speedW;
   }
-  if (posW/25 < 0) {    // the object has moved off the canvas to the left
+  if (posW/20 < 0) {    // the object has moved off the canvas to the left
       posW = -speedW;
   }
-  if (posX/25 > height) {    // the object has moved off the canvas to the bottom
+  if (posX/20 > height) {    // the object has moved off the canvas to the bottom
       posX = -speedX;
   }
-  if (posX/25 < 0) {    // the object has moved off the canvas to the top
+  if (posX/20 < 0) {    // the object has moved off the canvas to the top
       posX = -speedX;
   }
 
