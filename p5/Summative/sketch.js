@@ -67,6 +67,7 @@ rect(1,790,799,77);
     if (posZ/1 < 0) {    // the object has moved off the canvas to the top
         posZ = -speedZ;
     }
+  //when the two circles are exactly placed on the exact same place, It will say GAME OVER
     if (posW/25 === posY/1.07 && posX/25 === posZ/1.07 ) {
       posW = 5000;
       posY= 5000;
