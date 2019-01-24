@@ -19,8 +19,8 @@ var ballRadius = posW/18;
 //speed varaibles
 var speedW=200;
 var speedX=200;
-var speedY=8;
-var speedZ=8;
+var speedY=10;
+var speedZ=10;
 
 function draw() {
 //background
