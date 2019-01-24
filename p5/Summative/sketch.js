@@ -30,7 +30,7 @@ background(0);
 fill(255,0,0);
 ellipse(posW/25,posX/25,ballRadius,ballRadius);
 fill(0,0,255);
-ellipse(posY/1.07,posZ/1.07,ballRadius,ballRadius);
+ellipse(posY/1,posZ/1,ballRadius,ballRadius);
 
 //draw portals
 fill(255,255,0);
@@ -55,16 +55,16 @@ rect(1,790,799,77);
 
 
     // Code for staying on the canvas (blue circle)
-    if (posY/1.07 > width) {    // the object has moved off the canvas to the right
+    if (posY/1 > width) {    // the object has moved off the canvas to the right
         posY = -speedY;
     }
-    if (posY/1.07 < 0) {    // the object has moved off the canvas to the left
+    if (posY/1 < 0) {    // the object has moved off the canvas to the left
         posY = -speedY;
     }
-    if (posZ/1.07 > height) {    // the object has moved off the canvas to the bottom
+    if (posZ/1 > height) {    // the object has moved off the canvas to the bottom
         posZ = -speedZ;
     }
-    if (posZ/1.07 < 0) {    // the object has moved off the canvas to the top
+    if (posZ/1 < 0) {    // the object has moved off the canvas to the top
         posZ = -speedZ;
     }
     if (posW/25 === posY/1.07 && posX/25 === posZ/1.07 ) {
